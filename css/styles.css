@@ -7,20 +7,25 @@ body{
     padding: 0;
 }
 
+.logo{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    align-items: center;
+    font-size: 35px;
+    margin: 15px; 
+    display: flex;
+}
 
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(160, 82, 2);
+    background-color: rgb(40, 40, 40);
     color: white;
 }
 
-.naslov{
-    font-size: 35px;
-    margin: 15px; 
-}
 
 .linkovi ul{
     margin: 0;
@@ -41,8 +46,8 @@ body{
 }
 
 .linkovi li:hover{
-    color: rgb(62, 62, 62);
-    font-size: 20px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
 }
 
 .burger {
@@ -54,6 +59,7 @@ body{
     justify-content: space-between;
     width: 31px;
     height: 21px;
+    margin-top: 45px;
 }
 
 .burger .bar { 
@@ -63,7 +69,7 @@ body{
     border-radius: 10px;
 
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
     .burger {
         display: flex;
     }
@@ -92,5 +98,97 @@ body{
     display: flex;
 
     }
+
+    .naslov{
+        display: none;
+    }
 }
 
+footer {
+    background: rgb(126, 120, 120);
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0px;
+
+} 
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: white;
+
+
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+
+}
+.footer-bottom {
+    background: rgb(40, 40, 40);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.footer-bottom a {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    text-decoration: none;
+    color:#fff
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer; 
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.home_img:hover .overlay{
+    opacity: 0.8;
+} 
