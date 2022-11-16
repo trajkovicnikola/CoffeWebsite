@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./javascript/burger.js" defer></script>
+    <script src="./javascript/javascript.js" defer></script>
+    <script src="./javascript/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/7617e10a91.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
     <title>CoffeeShop</title>
 </head>
 <body>
+    <div id="preloader"></div>
     <nav class="navbar">
         <div class="logo"><img src="./images/logo.png" alt="Logo" width="100px" height="100px">Coffee Shop</div>
         <a href="#" class="burger">
@@ -36,6 +43,11 @@
             </div>
         </div>
         </div>
+        <div class="flex-gallery">
+            <div class="gallery">
+                <h1>Gallery</h1>
+            </div>
+        </div>
     <section aria-label="Newest Photos">
         <div class="carousel" data-carousel>
             <button data-carousel-button="prev" class="carousel-button prev">&#8656;</button>
@@ -48,6 +60,9 @@
         </ul>
         </div>
     </section>
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
     <footer>
         <div class="footer-bottom">
             <p>Copyright &copy; Coffe Shop. Designed by <span>Mihajlo, Lana, Nikola</span></p>

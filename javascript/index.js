@@ -1,11 +1,3 @@
-const burger = document.getElementsByClassName('burger')[0]
-const linkovi = document.getElementsByClassName('linkovi')[0]
-
-burger.addEventListener('click', () => {
-    linkovi.classList.toggle('active')
-}
-)
-
 const buttons = document.querySelectorAll("[data-carousel-button]")
 buttons.forEach(button => {
     button.addEventListener("click", () =>{
@@ -20,4 +12,4 @@ buttons.forEach(button => {
         slides.children[newIndex].dataset.active = true
         delete activeSlide.dataset.active
     })
-});     
+});  
