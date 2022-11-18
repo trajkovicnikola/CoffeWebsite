@@ -1,8 +1,11 @@
 
 
-#forma {
+.forma {
     width: 100%;
-    background-color: rgb(40, 40, 40);
+}
+
+body{
+    background-image: url(../images/coffee-beans-top-view-white-background-space-text.jpg);
 }
 
 
@@ -10,11 +13,13 @@
 form {
     max-width: 700px;
     width: 90%;
-    background: white;
+    background: rgb(40,40,40);
     margin: 10vh auto 0 auto;
     padding: 40px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     border-radius: 30px;
+    color: white;
+    /* box-shadow: 10px 10px 12px 4px rgb(40 40 40 / 70%); */
 
 }
 h1 {
@@ -37,95 +42,55 @@ input, textarea {
 }
 
 input[type="text"]:focus, textarea:focus {  /* kada se klikne na textareu ili text border bottom postaje crveni */
-    border: 2px solid yellowgreen;
+    border: 2px solid rgb(0,0,0);
 }
 
 input[type="submit"] {
-    margin-top: 30px;
+    /* margin-top: 30px;
     width: 90%;
     max-width: 200px;
     background: rgb(218, 82, 82);
     color: white;
     max-width: 200px;
     font-size: 17px;
-    cursor: pointer;
-}
-
-footer {
-    background: rgb(126, 120, 120);
-    height: auto;
-    width: 100vw;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    margin: 0px;
-
-} 
-
-.footer-content {
+    cursor: pointer; */
+    margin-top: 10px;
+    background-color: #141414;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-
-}
-
-.footer-content h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
     color: white;
-
-
 }
 
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: white;
-
-}
-.footer-bottom {
-    background: rgb(40, 40, 40);
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-
+input[type="submit"]:hover{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.footer-bottom p {
-    font-size: 12px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    color: white;
-
-}
-
-.footer-bottom a {
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-    text-decoration: none;
-    color:#fff
-}
 
 .container {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 .text {
     width: 50%;
     height: 50%;
     padding: 40px;
-    margin: 20vh auto 0 3%;
-    background-color: whitesmoke;
+    margin: 16vh auto 0 3%;
+    background-color: rgb(40,40,40);
     border-radius: 30px;
+    color: white;
+    /* box-shadow: 10px 10px 12px 4px rgb(40 40 40 / 70%); */
 }
 
 .fa {
@@ -145,17 +110,35 @@ footer {
   
   /* Facebook */
   .fa-facebook {
-    background: #3B5998;
+    background: rgb(40, 40, 40);
     color: white;
   }
 
   .fa-instagram {
-    background: #125688;
+    background: rgb(40, 40, 40);
     color: white;
   }
   
   .fa-pinterest {
-    background: #cb2027;
+    background: rgb(40, 40, 40);
     color: white;
   }
+
+  .fa-twitter{
+    background: rgb(40, 40, 40);
+    color: white;
+  }
+
+  @media (max-width:1000px) {
+    .container{
+        flex-direction: column;
+    }
+    
+    .text{
+        /* margin-left: 5%; */
+        align-self: center;
+        width: 80%;
+        margin: 10vh auto 0 auto;
+    }
+}
   
