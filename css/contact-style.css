@@ -1,0 +1,161 @@
+
+
+#forma {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+
+
+
+form {
+    max-width: 700px;
+    width: 90%;
+    background: white;
+    margin: 10vh auto 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    resize: none ;
+    
+}
+
+input[type="text"]:focus, textarea:focus {  /* kada se klikne na textareu ili text border bottom postaje crveni */
+    border: 2px solid yellowgreen;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: rgb(218, 82, 82);
+    color: white;
+    max-width: 200px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+footer {
+    background: rgb(126, 120, 120);
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0px;
+
+} 
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: white;
+
+
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+
+}
+.footer-bottom {
+    background: rgb(40, 40, 40);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.footer-bottom a {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    text-decoration: none;
+    color:#fff
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    width: 50%;
+    height: 50%;
+    padding: 40px;
+    margin: 20vh auto 0 3%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
