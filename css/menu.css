@@ -29,11 +29,11 @@ body{
     width: 45%;
 }*/
 .okvir{
-    width: 100%;
+    width: 110%;
     height: 100%;
     display:grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -164,5 +164,16 @@ header{
 }
 
 
+@media(max-width:1300px){
+    .okvir{
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    }
+}
 
-
+@media(max-width:950px){
+    .okvir{
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+    }
+}
