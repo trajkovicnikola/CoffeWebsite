@@ -1,6 +1,6 @@
 
 
-.forma {
+#forma {
     width: 100%;
 }
 
@@ -141,4 +141,18 @@ input[type="submit"]:hover{
         margin: 10vh auto 0 auto;
     }
 }
+
+#dugme {
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(40, 40, 40);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
   
