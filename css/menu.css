@@ -1,0 +1,179 @@
+h1,h3,p {
+    text-align: center;
+}
+
+.menu{
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: burlywood;
+    border-radius: 30px;
+  
+}
+
+
+
+
+body{
+    background-image: url(/images/pexels-negative-space-34085.jpg);
+}
+/*.flavor{
+   
+    text-align: left;
+    width:45%;
+}
+.price{
+    text-align: right;
+    width: 45%;
+}*/
+.okvir{
+    width: 110%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.okvir img{
+border-radius: 50%;
+    max-width: 110px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+
+.okvir:hover img {
+    transform: rotate(360deg);
+}
+.okvir .latte h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.okvir .latte h5 span {
+    color: rgb(142, 63, 63);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 20px;
+  
+}
+.okvir .mocha h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.okvir .mocha h5 span {
+    color: rgb(142, 63, 63);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 20px;
+}
+.okvir .americano h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.okvir .americano h5 span{
+    color: rgb(142, 63, 63);
+        float: right;
+        font-weight: 600;
+        font-style: italic;
+        padding-right: 20px;
+
+}
+.okvir .fredo h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.okvir .fredo h5 span {
+    color: rgb(142, 63, 63);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 20px;
+
+}
+
+.okvir .cappuccino h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.okvir .cappuccino h5 span {
+    color: rgb(142, 63, 63);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 20px;
+
+}
+.okvir .espresso h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.okvir .espresso h5 span {
+    color: rgb(142, 63, 63);
+    float:right;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 20px;
+
+}
+
+header{
+    padding-top: 5%;
+}
+
+
+@media(max-width:1300px){
+    .okvir{
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    }
+}
+
+@media(max-width:950px){
+    .okvir{
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+    }
+}
