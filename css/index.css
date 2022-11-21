@@ -120,7 +120,9 @@ body{
 .home_img {
     width: 100%;
     height: 100%;
+    
 }
+
 
 .overlay{
     position: absolute;
@@ -154,6 +156,7 @@ body{
 } 
 
 
+
 .flex-gallery{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -177,7 +180,7 @@ body{
 @media (max-width: 600px) {
     .overlay{
         background: none;
-        top: -250px;
+        top: -250px; 
         opacity: 1;
     }
 

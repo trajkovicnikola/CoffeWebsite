@@ -1,3 +1,4 @@
+//navbar
 const burger = document.getElementsByClassName('burger')[0]
 const linkovi = document.getElementsByClassName('linkovi')[0]
 
@@ -6,11 +7,13 @@ burger.addEventListener('click', () => {
 }
 )
 
+//gif
 var loader = document.getElementById("preloader")
 window.addEventListener("load", function(){
     loader.style.display = "none"
 })
 
+//to top
 const toTop = document.querySelector(".to-top");
 
 window.addEventListener("scroll", () => {
