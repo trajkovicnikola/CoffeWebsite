@@ -143,15 +143,24 @@ input[type="submit"]:hover{
 }
 
 #dugme {
-    background-color: white; /* Green */
-    border: none;
-    color: rgb(40, 40, 40);
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
+    background-color: #141414;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    color: white;
+}
+
+#dugme:hover{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 

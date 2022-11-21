@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./javascript/javascript.js" defer></script>
+    <script src="./javascript/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/7617e10a91.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/order.css">
+    <script src="./javascript/order.js" defer></script>
+    <title>CoffeeShop</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    <nav class="navbar">
+        <div class="logo"><img src="./images/logo.png" alt="Logo" width="100px" height="100px"><a href="./index.html">Coffee Shop</a></div>
+        <a href="#" class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="linkovi">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="container">
+            <div class="form">
+            <form action="">
+                <h1>Order here</h1>
+    <label for="username">Username:</label> <br>  
+    <input type="text"
+        size="25"
+        maxlength="15"
+        minlength=""
+        name="username"
+        placeholder="Username"
+        required
+        id="username"
+        >
+      
+        <br> <br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" placeholder="Password" size="25">
+        <br><br>
+        <label for="">Product:</label>
+        <br>
+        <input type="checkbox" name="latte" id="latte">Latte 
+        <br>
+        <input type="checkbox" name="mocha" id="mocha">Mocha
+        <br>
+        <input type="checkbox" name="americano" id="americano">Americano
+        <br>
+        <input type="checkbox" name="fredo" id="fredo">Fredo
+        <br>
+        <input type="checkbox" name="cappuccino" id="cappuccino">Cappuccino
+        <br>
+        <input type="checkbox" name="espresso" id="espresso">Espresso
+        <br>
+       
+        <br>
+        <label for="delivery">Delivery type:</label><br>
+        <select id="delivery">
+                <option value="store">Store pickup</option>
+                <option value="home" selected>Home delivery</option>
+        </select>
+
+        <br><br>
+        <label for="">Payment method:</label>
+        <br>
+        <input type="radio" name="card" value="card" checked> Card
+        <br>
+        <input type="radio" name="card" value="cash"> Cash
+        <br>
+
+        <br>
+        <button id="order" type="submit">Order</button>
+            </div>
+
+
+            </form>
+
+        </div>
+
+
+
+        </div>
+
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    <footer>
+        <div class="footer-bottom">
+            <p>Copyright &copy; Coffe Shop. Designed by <span>Mihajlo, Lana, Nikola</span></p>
+        </div>
+    </footer>
+</body>
+</html>
